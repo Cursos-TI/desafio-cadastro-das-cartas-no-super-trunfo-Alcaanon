@@ -38,7 +38,7 @@ int main() {
     scanf("%s", estado);
     printf("Digite o código:");
     scanf("%s", codigo);
-    getchar();
+    getchar(); // Problemas com o espaço em branco após o scanf, usando fgets para ler a string com espaços
     printf("Digite o nome da cidade: ");
     fgets(nome, 50, stdin);
     printf("Digite a população: ");
@@ -58,7 +58,7 @@ int main() {
     scanf("%s", estado2);
     printf("Digite o código:");
     scanf("%s", codigo2);
-    getchar();
+    getchar(); // Problemas com o espaço em branco após o scanf, usando fgets para ler a string com espaços
     printf("Digite o nome da cidade: ");
     fgets(nome2, 50, stdin);
     printf("Digite a população: ");
